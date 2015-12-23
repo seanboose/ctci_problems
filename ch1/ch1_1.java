@@ -1,8 +1,15 @@
+package seanboose.ch1_1;
 
-import ch1_1.UniqueCharString;
-
+/**
+ * Problem statement: Implement an algorithm to determine if a string has all unique characters. What if you cannot use
+ * additional data structures?
+ */
 public class ch1_1{
 
+	/**
+	 * Determines if a given string has only uique characters using two different methods.
+	 * @param args A single string to check
+	 */
 	public static void main(String[] args){
 
 		if(args.length != 1){
